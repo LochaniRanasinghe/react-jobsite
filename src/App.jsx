@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import HomeCards from "./components/HomeCards.jsx";
 import Card from "./components/Card.jsx";
 import JobListings from "./components/JobListings.jsx";
+import ViewAllJobs from "./components/ViewAllJobs.jsx";
 
 const App = () => {
   return (
@@ -11,16 +12,7 @@ const App = () => {
       <Hero />
       <HomeCards />
       <JobListings />
-      
-
-      <section className="m-auto max-w-lg my-10 px-6">
-        <a
-          href="jobs.html"
-          className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
-        >
-          View All Jobs
-        </a>
-      </section>
+      <ViewAllJobs />    
     </>
   );
 };
